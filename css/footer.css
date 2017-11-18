@@ -1,0 +1,20 @@
+/* Main footer */
+.custom-footer-container {
+    background: rgba(43, 51, 58, 0.64);
+}
+
+.custom-no-bullet{
+    list-style-type: none;
+}
+
+.custom-nav-heading{
+    color: white;
+}
+
+.nav-link{
+    color: #24a0ed;
+}
+
+#footer-disclaimer{
+    color: grey;
+}
