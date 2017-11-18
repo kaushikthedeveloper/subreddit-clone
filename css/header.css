@@ -37,3 +37,29 @@
     position:absolute;
     top:0;
 }
+
+.center-header-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 20px;
+
+    display: flex;
+    align-items:center;
+}
+
+#header-reddit-logo{
+    height: 42px;
+    width: auto;
+    vertical-align: middle;
+}
+
+#javascript-text{
+    color: white;;
+    font-size: 3.6em;
+}
+#javascript-text:hover{
+    color: white;
+}
