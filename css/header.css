@@ -1,12 +1,17 @@
-.custom-header-container{
+.custom-top-header-container{
     background: rgba(0,0,0,0.7);
+    margin: 0px;
+    position:absolute;
+    top:0;
+    width: 100%;
+    z-index: 1;
 }
 .custom-header-links{
-    font-size: 1.4ex;
+    font-size: 1.2ex;
     color: rgba(255, 255, 255, 0.7);
 }
 .custom-header-text{
-    font-size: 1.4ex;
+    font-size: 1.2ex;
     color: rgba(255, 255, 255, 0.7);
 }
 .custom-header-links:hover{
@@ -26,4 +31,9 @@
 .tools-icon{
     background: transparent;
     border-color: transparent;
+}
+
+#header-bg-background{
+    position:absolute;
+    top:0;
 }
