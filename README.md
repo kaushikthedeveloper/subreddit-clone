@@ -11,7 +11,8 @@ Languages used :
 - `jquery`
 
 <hr />
-# Quick setup (Linux) :
+
+## Quick setup (Linux) :
 
 1. Clone the project
 2. In terminal : 
