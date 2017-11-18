@@ -1,3 +1,24 @@
-.custom-header{
-    background: rgba(0,0,0,0.7)
+.custom-header-container{
+    background: rgba(0,0,0,0.7);
+}
+.custom-header-links{
+    font-size: 1.4ex;
+    color: rgba(255, 255, 255, 0.7);
+}
+.custom-header-text{
+    font-size: 1.4ex;
+    color: rgba(255, 255, 255, 0.7);
+}
+.custom-header-links:hover{
+    color: white !important;
+}
+.custom-header-links:focus{
+    color: white;
+}
+.custom-header-right{
+    float: right;
+}
+
+#login-signup{
+    color: white;
 }
