@@ -23,17 +23,8 @@
 
     <div id="header-content" />
 
-    <%!
-    from r2.lib.filters import unsafe, safemarkdown, keep_space
-%>
-<%namespace file="utils.html" import="error_field"/>
 
-<div class="selftextcontainer">
-  <div class="selftext rounded">
-    ${unsafe(safemarkdown(thing.link.selftext))}
-  </div>
-</div>
-
+    
     <div id="footer-content" />
 
     <!-- include the scripts -->
