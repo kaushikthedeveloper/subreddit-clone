@@ -1,17 +1,23 @@
+/* Image background */
+#header-bg-background{
+    position:absolute;
+    top:0;
+}
+
+/* Top */
 .custom-top-header-container{
     background: rgba(0,0,0,0.7);
-    margin: 0px;
     position:absolute;
     top:0;
     width: 100%;
     z-index: 1;
 }
 .custom-header-links{
-    font-size: 1.2ex;
+    font-size: 1.3ex;
     color: rgba(255, 255, 255, 0.7);
 }
 .custom-header-text{
-    font-size: 1.2ex;
+    font-size: 1.3ex;
     color: rgba(255, 255, 255, 0.7);
 }
 .custom-header-links:hover{
@@ -33,12 +39,8 @@
     border-color: transparent;
 }
 
-#header-bg-background{
-    position:absolute;
-    top:0;
-}
-
-.center-header-logo{
+/* Center */
+.custom-center-header-container{
     position: absolute;
     top: 0;
     left: 0;
@@ -63,3 +65,32 @@
 #javascript-text:hover{
     color: white;
 }
+
+/* Bottom */
+.custom-bottom-header-container{    
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.custom-bottom-text{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.custom-bottom-text:hover,
+.custom-bottom-text:focus
+{
+    color: white !important;
+    background: transparent !important;
+    border-color: transparent !important;
+}
+
+.custom-bottom-header-container > .nav-tabs > li.active > a,
+.custom-bottom-header-container > .nav-tabs > li.active > a:hover,
+.custom-bottom-header-container > .nav-tabs > li.active > a:focus{
+    background-color: transparent;
+    border-color: transparent; 
+    color: white;
+    cursor: pointer;
+} 
