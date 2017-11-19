@@ -9,12 +9,23 @@
 
 .custom-nav-heading{
     color: white;
+    font-family: arial,verdana,helvetica,sans-serif;
 }
 
 .nav-link{
     color: #24a0ed;
 }
 
+.nav-link:hover,
+.nav-link:focus{
+    color: #24a0ed;
+}
+
+#reddit-gold{
+    color: #9A7D2E;
+}
+
+/* Disclaimer */
 #footer-disclaimer{
     color: grey;
 }
