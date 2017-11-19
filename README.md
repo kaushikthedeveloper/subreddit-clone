@@ -17,11 +17,11 @@ Languages/Frameworks used :
 
 1. Clone the project
 2. In terminal : 
-```python
+```bash
 #for python2
-python -m SimpleHTTPServer
+$python -m SimpleHTTPServer
 
 #for python3
-python -m http.server
+$python -m http.server
 ```
 3. Access the webpage from `http://localhost:8000/`
