@@ -43,19 +43,18 @@
     width: 100%;
     margin-left: 100px;
     margin-top: 10px;
+    font-family: Lato,Arial,sans-serif
 }
 
 .custom-row1{
     display: flex;
-    align-items: flex-end;
 }
 
 .custom-title{
     color: #24a0ed;
-    float: left;
     font-weight: bolder;
-    font-size: 2em;
-    margin-right: 10px;
+    font-size: 2.4em;
+    padding-right: 8px;
 }
 
 .custom-title a{
@@ -63,23 +62,25 @@
 }
 
 .custom-link-flair-text{
-    float: left;
-    /* used to keep both different sized font at same bottom line */
     background: #738491;
-    margin-right: 10px;    
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 1.4em;
 }
 
 .custom-domain{
-    float: left;
+    color: #999;
+    font-size: 1em;   
+    padding-left: 8px; 
 }
 
 .custom-row2{
-    float: left;   
 }
 
 .custom-self-text{
-    float: left;
-    
 }
 
 .custom-created-utc{
