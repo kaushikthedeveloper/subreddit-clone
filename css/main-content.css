@@ -1,0 +1,44 @@
+.custom-outside-container{
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+
+.custom-cards{
+    padding: 20px;
+    background: white;
+}
+
+.custom-like-dislike{
+    text-align: center;
+    float: left;
+    width: 50px;
+}
+
+.custom-details{
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.custom-like-button{
+    color: #888;
+    font-weight: bold;
+    background: transparent;
+}
+.custom-like-button:hover{
+    background: #ddd;
+}
+
+.custom-dislike-button{
+    color: #bbb;
+    font-weight: bold;
+    background: transparent;
+}
+.custom-dislike-button:hover{
+    background: #eeeeeeaa;
+}
+
+.custom-score-text{
+    color: #aaa;
+    font-weight: bold;
+    font-size: 1.2em;
+}
