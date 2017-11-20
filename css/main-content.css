@@ -7,16 +7,11 @@
     background: white;
 }
 
+/* Like/Dislike */
 .custom-like-dislike{
     text-align: center;
     float: left;
     width: 50px;
-}
-
-.custom-details{
-    width: 100%;
-    margin-left: 100px;
-    margin-top: 10px;
 }
 
 .custom-like-button{
@@ -41,4 +36,84 @@
     color: #aaa;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+/* details */
+.custom-details{
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.custom-row1{
+    display: flex;
+    align-items: flex-end;
+}
+
+.custom-title{
+    color: #24a0ed;
+    float: left;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.custom-title a{
+    text-decoration: none;
+}
+
+.custom-link-flair-text{
+    float: left;
+    /* used to keep both different sized font at same bottom line */
+    background: #738491;
+    margin-right: 10px;    
+}
+
+.custom-domain{
+    float: left;
+}
+
+.custom-row2{
+    float: left;   
+}
+
+.custom-self-text{
+    float: left;
+    
+}
+
+.custom-created-utc{
+
+}
+
+.custom-author{
+
+}
+
+.custom-author-flair-text{
+
+}
+
+.custom-row3{
+    
+}
+    
+.custom-num-comments{
+    color: #24a0ed;    
+}
+
+.custom-share{
+
+}
+
+.custom-save{
+
+}
+
+.custom-hide{
+
+}
+
+.custom-report{
+
 }
