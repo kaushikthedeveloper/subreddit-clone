@@ -1,4 +1,5 @@
 $(function(){
-    $("#header-content").load("header.html")
-    $("#footer-content").load("footer.html")    
+    $("#header-content").load("header.html");
+    $('#main-content').load("main-content.html");
+    $("#footer-content").load("footer.html");   
 })
