@@ -1,3 +1,7 @@
+.custom-header-full{
+    overflow: hidden;
+}
+
 /* Image background */
 #header-bg-background{
     position:absolute;
