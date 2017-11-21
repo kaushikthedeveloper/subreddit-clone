@@ -42,18 +42,17 @@
 .custom-details{
     width: 100%;
     margin-left: 100px;
-    margin-top: 10px;
     font-family: Lato,Arial,sans-serif
 }
 
-.custom-row1{
-    display: flex;
+.custom-row1 p{
+    margin: 0px;
 }
 
 .custom-title{
     color: #24a0ed;
     font-weight: bolder;
-    font-size: 2.4em;
+    font-size: 2em;
     padding-right: 8px;
 }
 
@@ -64,8 +63,8 @@
 .custom-link-flair-text{
     background: #738491;
     color: white;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     padding-left: 8px;
     padding-right: 8px;
     font-size: 1.4em;
@@ -73,18 +72,25 @@
 
 .custom-domain{
     color: #999;
-    font-size: 1em;   
     padding-left: 8px; 
 }
 
 .custom-row2{
+    display: flex;
+    align-content: flex-end;
 }
 
-.custom-self-text{
+.custom-self-text button:hover{
+    background-color: #24a0ed99;
+}
+
+.custom-row2 p{
+    margin: 0px;
 }
 
 .custom-created-utc{
-
+    color: #999;
+    margin-left: 8px;    
 }
 
 .custom-author{
@@ -92,29 +98,52 @@
 }
 
 .custom-author-flair-text{
-
+    color: #999;    
 }
 
 .custom-row3{
-    
+    margin-top: 12px;
 }
-    
+ 
+.custom-row3 ul{
+    padding-left: 0px;
+}
+
+.custom-row3 ul li{
+    display: inline;
+    padding: 4px;
+}
+
 .custom-num-comments{
-    color: #24a0ed;    
+    color: #24a0ed;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.custom-num-comments a{
+    text-decoration: none;    
 }
 
 .custom-share{
-
+    color: #999;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .custom-save{
-
+    font-weight: bold;
+    color: #999;
+    cursor: pointer;    
 }
 
 .custom-hide{
-
+    font-weight: bold;
+    color: #999;    
+    cursor: pointer;
 }
 
 .custom-report{
-
+    font-weight: bold;
+    color: #999;    
+    cursor: pointer;
 }
