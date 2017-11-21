@@ -2,14 +2,18 @@ let json_url = 'https://www.reddit.com/r/javascript.json';
 
 // call the function to get json data
 // use `promise` to build the Object of DataArray once json is available
+// use the DataArray obj to build the body
 get_json(json_url)
 .then(function(json_data){
 
-    let data_array = new DataArray();
+    let data_ = new DataArray();
     // fill in the data
-    data_array.fill_data_array(json_data);
+    data_.fill_data_array(json_data);
 
-    console.log("DataArray : ", data_array );
+    console.log("DataArray : ", data_ );
+
+    // use this data to fill in the content
+    add_to_body(data_);
 })
 
 /**
@@ -73,6 +77,7 @@ function Data(url, score, title, link_flair_text, domain, selftext, created_utc,
     this.url = url;
     
     this.score = score;
+    
     this.title = title;
     this.link_flair_text = link_flair_text;
     this.domain = domain;
@@ -85,5 +90,18 @@ function Data(url, score, title, link_flair_text, domain, selftext, created_utc,
     this.num_comments = num_comments;
 }
 
+function add_to_body(data_){
+    
+    let ele;
+    console.log("Elements");
 
+    let outside_container = document.getElementById("custom-outside-container");
 
+    // for(let i=0; i<data_array.length; i++)
+    for(ele of data_.data_array){
+        let inner_card = document.getElementById("first-dummy-card");
+        let clone = inner_card.cloneNode(".custom-cards");
+        outside_container.appendChild(clone);
+    
+    }
+}
