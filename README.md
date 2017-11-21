@@ -25,3 +25,5 @@ $python -m SimpleHTTPServer
 $python -m http.server
 ```
 3. Access the webpage from `http://localhost:8000/`
+
+***NOTE :** Few components have slight modifications according to the author's discretion.* 
