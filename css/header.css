@@ -30,6 +30,10 @@
 .custom-header-links:focus{
     color: white;
 }
+#top-right-div{
+    position: absolute;
+    right: 0;
+}
 .custom-header-right{
     float: right;
 }
