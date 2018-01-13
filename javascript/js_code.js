@@ -83,7 +83,13 @@ function Data(url, score, title, link_flair_text, domain, selftext, created_utc,
     this.domain = domain;
 
     this.selftext = selftext;
-    this.created_utc = created_utc;
+
+    this.selftext = selftext;
+    
+    // convert to date - multiply by 1000 to convert seconds to milliseconds
+    var date = new Date(created_utc * 1000);
+    this.created_utc = date.toDateString();
+
     this.author = author;
     this.author_flair_text = author_flair_text;
 
