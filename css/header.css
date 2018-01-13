@@ -14,7 +14,7 @@
     position:absolute;
     top:0;
     width: 100%;
-    z-index: 1;
+    display: flex;
 }
 .custom-header-links{
     font-size: 1.3ex;
@@ -30,12 +30,15 @@
 .custom-header-links:focus{
     color: white;
 }
-#top-right-div{
-    position: absolute;
-    right: 0;
+
+#top-left-div{
+    flex: 1 1 0%;
+    overflow: hidden;
+    display: flex;
+    white-space: nowrap;
 }
-.custom-header-right{
-    float: right;
+#top-right-div{
+    flex: 0 0 auto;
 }
 
 #login-signup{
